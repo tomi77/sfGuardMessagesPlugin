@@ -1,7 +1,6 @@
 <?php
 
 /**
- *
  * @author Tomasz Jakub Rup <tomasz.rup@gmail.com>
  */
 class sfGuardMessage extends BasesfGuardMessage
@@ -10,4 +9,4 @@ class sfGuardMessage extends BasesfGuardMessage
     {
         return $this->getId();
     }
-} // sfGuardMessage
+}

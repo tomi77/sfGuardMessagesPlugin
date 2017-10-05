@@ -1,7 +1,6 @@
 <?php
 
 /**
- *
  * @author Tomasz Jakub Rup <tomasz.rup@gmail.com>
  */
 class sfGuardMessageType extends BasesfGuardMessageType
@@ -11,5 +10,3 @@ class sfGuardMessageType extends BasesfGuardMessageType
         return $this->getName();
     }
 }
-
-// sfGuardMessageType

@@ -1,7 +1,6 @@
 <?php
 
 /**
- *
  * @author Tomasz Jakub Rup <tomasz.rup@gmail.com>
  */
 class sfGuardMessagePriority extends BasesfGuardMessagePriority
@@ -11,5 +10,3 @@ class sfGuardMessagePriority extends BasesfGuardMessagePriority
         return $this->getName();
     }
 }
-
-// sfGuardMessagePriority

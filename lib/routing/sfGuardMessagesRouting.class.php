@@ -15,7 +15,7 @@ class sfGuardMessagesRouting
       'prefix_path'          => 'sf_guard_message',
       'with_wildcard_routes' => true,
       'requirements'         => [],
-    ));
+    ]));
     }
 
     public static function addRouteForAdminMessagePriority(sfEvent $event)
