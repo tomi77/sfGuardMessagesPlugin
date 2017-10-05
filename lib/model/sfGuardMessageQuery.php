@@ -2,10 +2,8 @@
 
 /**
  *
- * @package    sfGuardMessagesPlugin
- * @subpackage model
- * @author     Tomasz Jakub Rup <tomasz.rup@gmail.com>
+ * @author Tomasz Jakub Rup <tomasz.rup@gmail.com>
  */
-class sfGuardMessageQuery extends BasesfGuardMessageQuery {
-
+class sfGuardMessageQuery extends BasesfGuardMessageQuery
+{
 } // sfGuardMessageQuery

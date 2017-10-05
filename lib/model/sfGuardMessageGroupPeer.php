@@ -2,10 +2,8 @@
 
 /**
  *
- * @package    sfGuardMessagesPlugin
- * @subpackage model
- * @author     Tomasz Jakub Rup <tomasz.rup@gmail.com>
+ * @author Tomasz Jakub Rup <tomasz.rup@gmail.com>
  */
-class sfGuardMessageGroupPeer extends BasesfGuardMessageGroupPeer {
-
+class sfGuardMessageGroupPeer extends BasesfGuardMessageGroupPeer
+{
 } // sfGuardMessageGroupPeer

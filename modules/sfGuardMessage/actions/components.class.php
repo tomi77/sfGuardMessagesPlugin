@@ -2,9 +2,9 @@
 
 class sfGuardMessageComponents extends sfComponents
 {
-  public function executeMessages(sfWebRequest $request)
-  {
-    $this->Messages = sfGuardMessageQuery::create()
+    public function executeMessages(sfWebRequest $request)
+    {
+        $this->Messages = sfGuardMessageQuery::create()
             ->filterByIsActive(true)
             ->filterByVisibleFrom(date('Y-m-d H:i:s'), Criteria::LESS_THAN)
             ->filterByVisibleTo(null, Criteria::ISNULL)
@@ -14,5 +14,5 @@ class sfGuardMessageComponents extends sfComponents
             ->orderByTypeId()
             ->orderByPriorityId()
             ->find();
-  }
+    }
 }
