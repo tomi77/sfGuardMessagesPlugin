@@ -1,0 +1,23 @@
+{
+    "name": "tomasz-rup/sf-guard-messages-plugin",
+    "type": "symfony1-plugin",
+    "description": "symfony 1.x plugin to add messages functionality to sfGuard plugin",
+    "keywords": ["symfony1"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tomasz Jakub Rup",
+            "email": "tomasz.rup@gmail.com",
+            "role": "Creator"
+        }
+    ],
+    "support": {
+      "issues": "https://github.com/tomi77/sfGuardMessagesPlugin/issues",
+      "source": "https://github.com/tomi77/sfGuardMessagesPlugin"
+    },
+    "require": {
+        "symfony/symfony1": "*",
+        "propel/sf-propel-o-r-m-plugin": "*",
+        "composer/installers": "*"
+    }
+}
